@@ -61,66 +61,68 @@ body {
     background-color: #212020;
 }
 
-a {
+/* a {
     margin-left: 87px;
-}
+} */
 
 .header {
     height: 150px;
     border-bottom: 1px solid white;
-    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-Items: center;
 }
 
 .header img {
     width: 60px;
-    margin: 45px 0;
-    margin: 47px 30px 43px 0;
-    position: absolute;
-    right: 0;
+    height: 60px;
 }
 
 .nav {
-    width: 100%;
+    margin-left: 87px;
+    width: 74.5%;
     height: 37px;
     padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav a:nth-child(2) {
-    margin-left: 66.5%;
-}
-
-.subnav a {
-    margin-left: 45px;
-}
-
-.subnav a:first-child {
+.subnav {
     margin-left: 87px;
+    display: flex;
+    justify-content: space-between;
+    width: 17.5%;
 }
 
 .cta {
-    border: 1px solid white;
     height: 710px;
+    display: flex;
 }
 
 .cta-left {
-    border: 1px solid white;
-    display: inline-block;
     width: 30%;
     height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-left img {
-    margin: 140px 0 0 180px;
+    margin:0 0 200px 20px;
 }
 
 .cta-right {
-    border: 1px solid white;
-    display: inline-block;
+    height: 710px;
 }
 
 .cta-right h1 {
     font-size: 100px;
-    margin-left: 25px;
+    margin: 35px 0 0 25px;
+    line-height: .89;
 }
 
-.
+.cta-right p {
+    margin: 45px 0 0 25px;
+    font-size: 28px;
+}
