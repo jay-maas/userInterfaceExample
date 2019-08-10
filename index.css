@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My code is here */
+
+* {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 915px;
+    border: 1px solid red;
+    background-color: #212020;
+}
+
+/* a {
+    margin-left: 87px;
+} */
+
+.header {
+    height: 150px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-Items: center;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav {
+    margin-left: 87px;
+    width: 74.5%;
+    height: 37px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subnav {
+    margin-left: 87px;
+    display: flex;
+    justify-content: space-between;
+    width: 17.5%;
+}
+
+.cta {
+    height: 710px;
+    display: flex;
+}
+
+.cta-left {
+    width: 30%;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-left img {
+    margin:0 0 200px 20px;
+}
+
+.cta-right {
+    height: 710px;
+}
+
+.cta-right h1 {
+    font-size: 100px;
+    margin: 35px 0 0 25px;
+    line-height: .89;
+}
+
+.cta-right p {
+    margin: 45px 0 0 25px;
+    font-size: 28px;
+}
